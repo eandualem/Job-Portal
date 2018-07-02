@@ -1,0 +1,153 @@
+body {
+    background: #1E2933;
+    font-family: 'Open Sans',sans-serif;
+    word-spacing: 3px;
+    margin: 0;
+    color: #252830;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.navbar-header img{
+    height: 55px;
+}
+.navbar-default {
+    background: #2C394B;
+    padding: 0 108px;
+    color: #FFF;
+    z-index: 100;
+    margin: 0;
+}
+.container{
+    margin: 32px 108px;
+    background-color: white;
+    border-radius: 1px;
+}
+h2{
+    background: #EEEEF1;
+    padding: 20px 0;
+    font-size: 1.3em;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+    line-height: 1.15;
+    color: #444;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Open Sans',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-spacing: 0px;
+}
+.navbar-collapse ul li a{
+    padding: 0 30px;
+    color: white;
+    line-height: 55px;
+}
+.navbar-collapse ul li:hover{
+    background: black;
+}
+.carousel {
+    height: 240px;
+}
+
+#content {
+    overflow: hidden;
+}
+
+#slideshow {
+    overflow: hidden;
+}
+
+#login {
+    padding: 0 204px 0 204px;
+    margin-top: 25px;
+}
+
+#promo {
+    float: left;
+}
+
+.carousel {
+    position: relative;
+}
+
+#promo {
+    margin: 32px 0px 12px 24px;
+}
+
+.checkbox span {
+    padding-left: 16px;
+}
+
+footer .container{
+    background-color: #2C394B;
+    color: white;
+}
+.btn-outline {
+    color: #444;
+    background-color: transparent;
+    border-color: #2C394B;
+    display: block;
+    margin-bottom: 16px;
+}
+.btn-outline:active, .btn-outline:focus, .btn-outline:hover {
+    color: #fff;
+    background-color:  #2C394B;
+    border-color:  #2C394B;
+}
+
+#signbtn{
+    margin-bottom: 0px;
+    width: 100%;
+}
+/*Employee Page*/
+aside{
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+    line-height: 2.4;
+    margin: 24px 0;
+    float: left;
+}
+.jobSearch{
+    float: left;
+    width: 72%;
+    margin-left: 32px;
+    margin-top: 24px;
+}
+.SearchGroup{
+
+}
+.SearchLabel{
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+}
+.search-btn{
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+}
+.small_container{
+    background: #EEEEF1;
+    padding: 20px 0;
+    margin: 20px 0;
+    border-radius: 8px;
+    border-color: #2C394B;
+    display: block;
+    border: 2px;
+    padding-left: 32px;
+    overflow: hidden;
+}
+.small_container img{
+    width: 182px;
+}
+.img_div{
+    float: left;
+}
+.cont_div{
+    float: left;
+    padding-left: 52px;
+}
+
+.createAccount{
+    padding: 52px 108px;
+}

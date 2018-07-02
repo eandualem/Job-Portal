@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="EmployeeModelTest" file="/Applications/MAMP/htdocs/jobportal/test/unit/EmployeeModelTest.php" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="0.186466">
+    <testcase name="testSearch" class="EmployeeModelTest" classname="EmployeeModelTest" file="/Applications/MAMP/htdocs/jobportal/test/unit/EmployeeModelTest.php" line="26" assertions="0" time="0.186466">
+      <error type="Error">EmployeeModelTest::testSearch
+Error: Call to a member function execute() on null
+
+/Applications/MAMP/htdocs/jobportal/application/models/employee_model.php:38
+/Applications/MAMP/htdocs/jobportal/test/unit/EmployeeModelTest.php:123
+</error>
+    </testcase>
+  </testsuite>
+</testsuites>

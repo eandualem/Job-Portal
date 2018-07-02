@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Applications/MAMP/htdocs/jobportal/application</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href=".css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href=".css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href=".css/style.css" rel="stylesheet" type="text/css">
+  <link href=".css/custom.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src=".js/html5shiv.min.js"></script>
+  <script src=".js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="index.html">/Applications/MAMP/htdocs/jobportal/application</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="controllers/employee/employee.php.html#9">employee</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/register_employer.php.html#9">register_employer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/employer_model.php.html#9">EmployerModel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/employee_model.php.html#9">EmployeeModel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/View.php.html#3">View</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/Session.php.html#3">Session</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/Controller.php.html#3">Controller</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/Auth.php.html#3">Auth</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/Application.php.html#3">Application</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/register_employee.php.html#9">register_employee</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employee/search.php.html#3">search</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/register.php.html#9">register</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/login.php.html#9">login</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/home.php.html#3">Home</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/forgot.php.html#9">forgot</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employer/former.php.html#9">former</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employer/employer.php.html#9">employer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employer/addVacancies.php.html#9">addVacancies</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employer/accept.php.html#9">accept</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/login_model.php.html#9">LoginModel</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="controllers/employee/search.php.html#3">search</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="libs/Application.php.html#3">Application</a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="models/login_model.php.html#9">LoginModel</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="libs/View.php.html#3">View</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="models/employee_model.php.html#9">EmployeeModel</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="models/employer_model.php.html#9">EmployerModel</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="controllers/login/login.php.html#9">login</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="controllers/login/register_employee.php.html#9">register_employee</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="libs/Controller.php.html#3">Controller</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="libs/Session.php.html#3">Session</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="controllers/employer/accept.php.html#9">accept</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="controllers/login/register_employer.php.html#9">register_employer</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="controllers/login/forgot.php.html#9">forgot</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="controllers/login/register.php.html#9">register</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="controllers/employer/addVacancies.php.html#9">addVacancies</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="controllers/employer/former.php.html#9">former</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libs/Auth.php.html#3">Auth</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="controllers/employee/employee.php.html#11"><abbr title="employee::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/View.php.html#81"><abbr title="View::checkForActiveControllerAndAction">checkForActiveControllerAndAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/Controller.php.html#23"><abbr title="Controller::openDatabaseConnection">openDatabaseConnection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/Controller.php.html#30"><abbr title="Controller::loadModel">loadModel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/Session.php.html#6"><abbr title="Session::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/Session.php.html#13"><abbr title="Session::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/Session.php.html#18"><abbr title="Session::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/Session.php.html#25"><abbr title="Session::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/View.php.html#6"><abbr title="View::render_header">render_header</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/View.php.html#11"><abbr title="View::render_footer">render_footer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/View.php.html#16"><abbr title="View::render_login_page">render_login_page</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/View.php.html#26"><abbr title="View::render_employee_page">render_employee_page</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/View.php.html#36"><abbr title="View::render_employer_page">render_employer_page</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/View.php.html#47"><abbr title="View::renderFeedbackMessages">renderFeedbackMessages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/View.php.html#56"><abbr title="View::checkForActiveController">checkForActiveController</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/View.php.html#68"><abbr title="View::checkForActiveAction">checkForActiveAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/employee_model.php.html#11"><abbr title="EmployeeModel::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/Auth.php.html#5"><abbr title="Auth::handleLogin">handleLogin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/employee_model.php.html#16"><abbr title="EmployeeModel::search">search</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/employee_model.php.html#58"><abbr title="EmployeeModel::apply">apply</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/employee_model.php.html#78"><abbr title="EmployeeModel::accepted">accepted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/employee_model.php.html#124"><abbr title="EmployeeModel::former">former</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/employer_model.php.html#11"><abbr title="EmployerModel::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/employer_model.php.html#19"><abbr title="EmployerModel::create_job">create_job</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/employer_model.php.html#48"><abbr title="EmployerModel::accept">accept</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/employer_model.php.html#108"><abbr title="EmployerModel::former">former</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/login_model.php.html#16"><abbr title="LoginModel::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/login_model.php.html#25"><abbr title="LoginModel::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/login_model.php.html#48"><abbr title="LoginModel::login_employee">login_employee</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/login_model.php.html#71"><abbr title="LoginModel::login_employer">login_employer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/login_model.php.html#97"><abbr title="LoginModel::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/login_model.php.html#106"><abbr title="LoginModel::create_employer">create_employer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/Controller.php.html#11"><abbr title="Controller::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/Application.php.html#105"><abbr title="Application::splitUrl">splitUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employee/employee.php.html#16"><abbr title="employee::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employer/former.php.html#11"><abbr title="former::former_employee">former_employee</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employee/search.php.html#5"><abbr title="search::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employee/search.php.html#10"><abbr title="search::search">search</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employee/search.php.html#28"><abbr title="search::apply">apply</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employee/search.php.html#42"><abbr title="search::accepted">accepted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employee/search.php.html#55"><abbr title="search::former">former</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employee/search.php.html#68"><abbr title="search::prepare_sql">prepare_sql</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employee/search.php.html#114"><abbr title="search::render_result">render_result</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employer/accept.php.html#11"><abbr title="accept::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employer/accept.php.html#17"><abbr title="accept::accept">accept</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employer/accept.php.html#32"><abbr title="accept::render_result">render_result</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employer/addVacancies.php.html#11"><abbr title="addVacancies::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employer/addVacancies.php.html#16"><abbr title="addVacancies::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employer/employer.php.html#11"><abbr title="employer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employer/employer.php.html#16"><abbr title="employer::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/employer/former.php.html#22"><abbr title="former::render_result">render_result</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libs/Application.php.html#11"><abbr title="Application::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/forgot.php.html#11"><abbr title="forgot::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/forgot.php.html#16"><abbr title="forgot::forgot">forgot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/home.php.html#5"><abbr title="Home::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/home.php.html#10"><abbr title="Home::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/home.php.html#15"><abbr title="Home::forgot">forgot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/login.php.html#11"><abbr title="login::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/login.php.html#16"><abbr title="login::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/login.php.html#45"><abbr title="login::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/register.php.html#11"><abbr title="register::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/register.php.html#17"><abbr title="register::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/register_employee.php.html#11"><abbr title="register_employee::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/register_employee.php.html#16"><abbr title="register_employee::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/register_employer.php.html#11"><abbr title="register_employer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/login/register_employer.php.html#16"><abbr title="register_employer::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/login_model.php.html#146"><abbr title="LoginModel::create_employee">create_employee</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="libs/Application.php.html#11"><abbr title="Application::__construct">__construct</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="controllers/employee/search.php.html#68"><abbr title="search::prepare_sql">prepare_sql</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="libs/Application.php.html#105"><abbr title="Application::splitUrl">splitUrl</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="controllers/login/register_employee.php.html#16"><abbr title="register_employee::register">register</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="controllers/login/login.php.html#16"><abbr title="login::login">login</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="controllers/login/register_employer.php.html#16"><abbr title="register_employer::register">register</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="models/employer_model.php.html#48"><abbr title="EmployerModel::accept">accept</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="models/login_model.php.html#25"><abbr title="LoginModel::login">login</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="models/employee_model.php.html#124"><abbr title="EmployeeModel::former">former</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libs/Controller.php.html#11"><abbr title="Controller::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libs/View.php.html#81"><abbr title="View::checkForActiveControllerAndAction">checkForActiveControllerAndAction</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="models/login_model.php.html#146"><abbr title="LoginModel::create_employee">create_employee</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="controllers/login/register.php.html#17"><abbr title="register::register">register</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="controllers/login/forgot.php.html#16"><abbr title="forgot::forgot">forgot</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="models/login_model.php.html#48"><abbr title="LoginModel::login_employee">login_employee</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="controllers/employer/addVacancies.php.html#16"><abbr title="addVacancies::add">add</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="controllers/employer/accept.php.html#17"><abbr title="accept::accept">accept</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="models/login_model.php.html#71"><abbr title="LoginModel::login_employer">login_employer</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="models/login_model.php.html#106"><abbr title="LoginModel::create_employer">create_employer</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="models/login_model.php.html#16"><abbr title="LoginModel::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="models/employer_model.php.html#108"><abbr title="EmployerModel::former">former</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="models/employer_model.php.html#19"><abbr title="EmployerModel::create_job">create_job</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="models/employer_model.php.html#11"><abbr title="EmployerModel::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="models/employee_model.php.html#78"><abbr title="EmployeeModel::accepted">accepted</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="models/employee_model.php.html#58"><abbr title="EmployeeModel::apply">apply</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/employee/search.php.html#10"><abbr title="search::search">search</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="models/employee_model.php.html#16"><abbr title="EmployeeModel::search">search</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libs/View.php.html#68"><abbr title="View::checkForActiveAction">checkForActiveAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libs/View.php.html#56"><abbr title="View::checkForActiveController">checkForActiveController</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libs/View.php.html#36"><abbr title="View::render_employer_page">render_employer_page</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libs/View.php.html#26"><abbr title="View::render_employee_page">render_employee_page</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/employee/search.php.html#28"><abbr title="search::apply">apply</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libs/Session.php.html#18"><abbr title="Session::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libs/Session.php.html#6"><abbr title="Session::init">init</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libs/Controller.php.html#30"><abbr title="Controller::loadModel">loadModel</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libs/Auth.php.html#5"><abbr title="Auth::handleLogin">handleLogin</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/employer/former.php.html#11"><abbr title="former::former_employee">former_employee</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/employee/search.php.html#55"><abbr title="search::former">former</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/employee/search.php.html#42"><abbr title="search::accepted">accepted</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libs/View.php.html#16"><abbr title="View::render_login_page">render_login_page</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.0.7</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.1</a> with <a href="https://xdebug.org/">Xdebug 2.6.0beta1</a> and <a href="https://phpunit.de/">PHPUnit 7.2.6</a> at Mon Jul 2 11:33:53 UTC 2018.</small>
+    </p>
+   </footer>
+  </div>
+  <script src=".js/jquery.min.js" type="text/javascript"></script>
+  <script src=".js/bootstrap.min.js" type="text/javascript"></script>
+  <script src=".js/holder.min.js" type="text/javascript"></script>
+  <script src=".js/d3.min.js" type="text/javascript"></script>
+  <script src=".js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([20,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([67,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"controllers\/employee\/employee.php.html#9\">employee<\/a>"],[0,27,"<a href=\"controllers\/employee\/search.php.html#3\">search<\/a>"],[0,5,"<a href=\"controllers\/employer\/accept.php.html#9\">accept<\/a>"],[0,4,"<a href=\"controllers\/employer\/addVacancies.php.html#9\">addVacancies<\/a>"],[0,2,"<a href=\"controllers\/employer\/employer.php.html#9\">employer<\/a>"],[0,3,"<a href=\"controllers\/employer\/former.php.html#9\">former<\/a>"],[0,4,"<a href=\"controllers\/login\/forgot.php.html#9\">forgot<\/a>"],[0,3,"<a href=\"controllers\/login\/home.php.html#3\">Home<\/a>"],[0,7,"<a href=\"controllers\/login\/login.php.html#9\">login<\/a>"],[0,4,"<a href=\"controllers\/login\/register.php.html#9\">register<\/a>"],[0,6,"<a href=\"controllers\/login\/register_employee.php.html#9\">register_employee<\/a>"],[0,5,"<a href=\"controllers\/login\/register_employer.php.html#9\">register_employer<\/a>"],[0,24,"<a href=\"libs\/Application.php.html#3\">Application<\/a>"],[0,2,"<a href=\"libs\/Auth.php.html#3\">Auth<\/a>"],[0,6,"<a href=\"libs\/Controller.php.html#3\">Controller<\/a>"],[0,6,"<a href=\"libs\/Session.php.html#3\">Session<\/a>"],[0,16,"<a href=\"libs\/View.php.html#3\">View<\/a>"],[0,10,"<a href=\"models\/employee_model.php.html#9\">EmployeeModel<\/a>"],[0,10,"<a href=\"models\/employer_model.php.html#9\">EmployerModel<\/a>"],[0,19,"<a href=\"models\/login_model.php.html#9\">LoginModel<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"controllers\/employee\/employee.php.html#11\">employee::__construct<\/a>"],[0,1,"<a href=\"controllers\/employee\/employee.php.html#16\">employee::index<\/a>"],[0,1,"<a href=\"controllers\/employee\/search.php.html#5\">search::__construct<\/a>"],[0,2,"<a href=\"controllers\/employee\/search.php.html#10\">search::search<\/a>"],[0,2,"<a href=\"controllers\/employee\/search.php.html#28\">search::apply<\/a>"],[0,2,"<a href=\"controllers\/employee\/search.php.html#42\">search::accepted<\/a>"],[0,2,"<a href=\"controllers\/employee\/search.php.html#55\">search::former<\/a>"],[0,17,"<a href=\"controllers\/employee\/search.php.html#68\">search::prepare_sql<\/a>"],[0,1,"<a href=\"controllers\/employee\/search.php.html#114\">search::render_result<\/a>"],[0,1,"<a href=\"controllers\/employer\/accept.php.html#11\">accept::__construct<\/a>"],[0,3,"<a href=\"controllers\/employer\/accept.php.html#17\">accept::accept<\/a>"],[0,1,"<a href=\"controllers\/employer\/accept.php.html#32\">accept::render_result<\/a>"],[0,1,"<a href=\"controllers\/employer\/addVacancies.php.html#11\">addVacancies::__construct<\/a>"],[0,3,"<a href=\"controllers\/employer\/addVacancies.php.html#16\">addVacancies::add<\/a>"],[0,1,"<a href=\"controllers\/employer\/employer.php.html#11\">employer::__construct<\/a>"],[0,1,"<a href=\"controllers\/employer\/employer.php.html#16\">employer::index<\/a>"],[0,2,"<a href=\"controllers\/employer\/former.php.html#11\">former::former_employee<\/a>"],[0,1,"<a href=\"controllers\/employer\/former.php.html#22\">former::render_result<\/a>"],[0,1,"<a href=\"controllers\/login\/forgot.php.html#11\">forgot::__construct<\/a>"],[0,3,"<a href=\"controllers\/login\/forgot.php.html#16\">forgot::forgot<\/a>"],[0,1,"<a href=\"controllers\/login\/home.php.html#5\">Home::__construct<\/a>"],[0,1,"<a href=\"controllers\/login\/home.php.html#10\">Home::index<\/a>"],[0,1,"<a href=\"controllers\/login\/home.php.html#15\">Home::forgot<\/a>"],[0,1,"<a href=\"controllers\/login\/login.php.html#11\">login::__construct<\/a>"],[0,5,"<a href=\"controllers\/login\/login.php.html#16\">login::login<\/a>"],[0,1,"<a href=\"controllers\/login\/login.php.html#45\">login::logout<\/a>"],[0,1,"<a href=\"controllers\/login\/register.php.html#11\">register::__construct<\/a>"],[0,3,"<a href=\"controllers\/login\/register.php.html#17\">register::register<\/a>"],[0,1,"<a href=\"controllers\/login\/register_employee.php.html#11\">register_employee::__construct<\/a>"],[0,5,"<a href=\"controllers\/login\/register_employee.php.html#16\">register_employee::register<\/a>"],[0,1,"<a href=\"controllers\/login\/register_employer.php.html#11\">register_employer::__construct<\/a>"],[0,4,"<a href=\"controllers\/login\/register_employer.php.html#16\">register_employer::register<\/a>"],[0,17,"<a href=\"libs\/Application.php.html#11\">Application::__construct<\/a>"],[0,7,"<a href=\"libs\/Application.php.html#105\">Application::splitUrl<\/a>"],[0,2,"<a href=\"libs\/Auth.php.html#5\">Auth::handleLogin<\/a>"],[0,3,"<a href=\"libs\/Controller.php.html#11\">Controller::__construct<\/a>"],[0,1,"<a href=\"libs\/Controller.php.html#23\">Controller::openDatabaseConnection<\/a>"],[0,2,"<a href=\"libs\/Controller.php.html#30\">Controller::loadModel<\/a>"],[0,2,"<a href=\"libs\/Session.php.html#6\">Session::init<\/a>"],[0,1,"<a href=\"libs\/Session.php.html#13\">Session::set<\/a>"],[0,2,"<a href=\"libs\/Session.php.html#18\">Session::get<\/a>"],[0,1,"<a href=\"libs\/Session.php.html#25\">Session::destroy<\/a>"],[0,1,"<a href=\"libs\/View.php.html#6\">View::render_header<\/a>"],[0,1,"<a href=\"libs\/View.php.html#11\">View::render_footer<\/a>"],[0,2,"<a href=\"libs\/View.php.html#16\">View::render_login_page<\/a>"],[0,2,"<a href=\"libs\/View.php.html#26\">View::render_employee_page<\/a>"],[0,2,"<a href=\"libs\/View.php.html#36\">View::render_employer_page<\/a>"],[0,1,"<a href=\"libs\/View.php.html#47\">View::renderFeedbackMessages<\/a>"],[0,2,"<a href=\"libs\/View.php.html#56\">View::checkForActiveController<\/a>"],[0,2,"<a href=\"libs\/View.php.html#68\">View::checkForActiveAction<\/a>"],[0,3,"<a href=\"libs\/View.php.html#81\">View::checkForActiveControllerAndAction<\/a>"],[0,1,"<a href=\"models\/employee_model.php.html#11\">EmployeeModel::__construct<\/a>"],[0,2,"<a href=\"models\/employee_model.php.html#16\">EmployeeModel::search<\/a>"],[0,2,"<a href=\"models\/employee_model.php.html#58\">EmployeeModel::apply<\/a>"],[0,2,"<a href=\"models\/employee_model.php.html#78\">EmployeeModel::accepted<\/a>"],[0,3,"<a href=\"models\/employee_model.php.html#124\">EmployeeModel::former<\/a>"],[0,2,"<a href=\"models\/employer_model.php.html#11\">EmployerModel::__construct<\/a>"],[0,2,"<a href=\"models\/employer_model.php.html#19\">EmployerModel::create_job<\/a>"],[0,4,"<a href=\"models\/employer_model.php.html#48\">EmployerModel::accept<\/a>"],[0,2,"<a href=\"models\/employer_model.php.html#108\">EmployerModel::former<\/a>"],[0,2,"<a href=\"models\/login_model.php.html#16\">LoginModel::__construct<\/a>"],[0,4,"<a href=\"models\/login_model.php.html#25\">LoginModel::login<\/a>"],[0,3,"<a href=\"models\/login_model.php.html#48\">LoginModel::login_employee<\/a>"],[0,3,"<a href=\"models\/login_model.php.html#71\">LoginModel::login_employer<\/a>"],[0,1,"<a href=\"models\/login_model.php.html#97\">LoginModel::logout<\/a>"],[0,3,"<a href=\"models\/login_model.php.html#106\">LoginModel::create_employer<\/a>"],[0,3,"<a href=\"models\/login_model.php.html#146\">LoginModel::create_employee<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

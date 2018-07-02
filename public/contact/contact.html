@@ -1,0 +1,30 @@
+<div class="container createAccount">
+    <h1>Get in touch!</h1>
+    <hr>
+    <div id="error">
+        <?php
+            if(isset($_SESSION['message'])){
+                echo '<div class="alert alert-danger">'.$_SESSION['message'].'</div>';
+            }
+        ?>
+    </div>
+    <form method="post" >
+        <fieldset class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" name="email" class="form-control" id='email' placeholder="Enter your email address" required>
+            <small class="text-muted">We'll never share your email with anyone else.</small>
+
+        </fieldset>
+
+        <fieldset class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" class="form-control" id='subject'>
+        </fieldset>
+
+        <fieldset class="form-group">
+            <label for="content">What would you like to ask us ?</label>
+            <textarea class="form-control" id="content" name="content" rows="3"></textarea>
+        </fieldset>
+        <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+    </form>
+</div>
